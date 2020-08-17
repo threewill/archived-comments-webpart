@@ -42,7 +42,7 @@ jobs:
       
       - name: Echo upload output
         run: |
-          output = ${{ steps.upload.outputs }}
+          output = $steps.upload.outputs
           echo '$output'
           
       - name: Upload Release Asset
