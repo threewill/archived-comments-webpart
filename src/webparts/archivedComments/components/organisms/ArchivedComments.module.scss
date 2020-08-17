@@ -1,0 +1,29 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.archivedComments {
+  position: relative;
+  background-color: #F1F1F1;
+  padding: 5px;
+
+  .container {
+    background-color: #F1F1F1;
+  }
+  
+  h3{
+    font-size: 24px;
+    font-weight: bold;
+  } 
+}
+#archivedComments > div{
+  border: 1px solid  black;
+  padding: 0px 15px;
+  border-radius:5px;    
+  color:#767676;
+  background-color:white;
+  position: relative;
+  margin-bottom: 7px;
+}
+
+#archivedComments > div > div {
+  margin-left: 30px;
+}

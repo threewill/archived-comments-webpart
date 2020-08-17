@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "3e736e68-1652-4897-aa67-a0fcbfb9201c",
+  "alias": "ArchivedComments",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "Archived Comments" },
+    "description": { "default": "Displays readonly comments migrated from Archived." },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "html": "<div id=\"archivedcommentssection\" style=\"padding:10px;background-color:#F1F1F1;\"> <h3 id=\"comments\"><b>Archived Comments</b></h3><div id=\"archivedcomments\"></div>"
+    }
+  }]
+}

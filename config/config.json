@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "archived-comments-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/archivedComments/ArchivedCommentsWebPart.js",
+          "manifest": "./src/webparts/archivedComments/ArchivedCommentsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ArchivedCommentsWebPartStrings": "lib/webparts/archivedComments/loc/{locale}.js"
+  }
+}
