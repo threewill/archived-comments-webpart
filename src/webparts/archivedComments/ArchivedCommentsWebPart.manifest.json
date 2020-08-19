@@ -17,11 +17,11 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
     "group": { "default": "Other" },
-    "title": { "default": "Archived Comments" },
+    "title": { "default": "Migrated Comments" },
     "description": { "default": "Displays readonly comments migrated from Archived." },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "html": "<div id=\"archivedcommentssection\" style=\"padding:10px;background-color:#F1F1F1;\"> <h3 id=\"comments\"><b>Archived Comments</b></h3><div id=\"archivedcomments\"></div>"
+      "html": "<div id=\"archivedcommentssection\" style=\"padding:10px;background-color:#F1F1F1;\"> <h3 id=\"comments\"><b>Migrated Comments</b></h3><div id=\"archivedcomments\"></div>"
     }
   }]
 }
