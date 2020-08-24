@@ -7,7 +7,7 @@ export default class ArchivedComments extends React.Component<IArchivedCommentsP
   public render(): React.ReactElement<IArchivedCommentsProps> {
     return (
       <div className={ styles.archivedComments }>
-        <h3 id="comments">Archived Comments</h3>
+        <h3 id="comments">Migrated Comments</h3>
         {
           this.props.Comments.map((c) => <Comment key={c.Id} Id={c.Id} Author={c.Author} Date={c.Date} Body={c.Body} Parent={ c.Parent } Children={c.Children} />)
         }

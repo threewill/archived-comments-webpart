@@ -3,9 +3,10 @@
   "solution": {
     "name": "archived-comments-client-side-solution",
     "id": "88ccecfe-44ef-4444-8cab-18d09c4dc612",
-    "version": "1.0.0.0",
+    "version": "1.0.5.0",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
+    "skipFeatureDeployment": true,
     "developer": {
       "name": "",
       "websiteUrl": "",

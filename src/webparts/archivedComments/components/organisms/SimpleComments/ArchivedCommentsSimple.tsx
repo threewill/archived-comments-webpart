@@ -18,7 +18,7 @@ export default class ArchivedComments extends React.Component<IArchivedCommentsS
         <AccordionItem>
           <AccordionItemHeading>
           <AccordionItemButton>
-            Archived Comments
+            Migrated Comments
           </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
