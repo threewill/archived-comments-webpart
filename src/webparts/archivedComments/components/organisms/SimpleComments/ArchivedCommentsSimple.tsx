@@ -22,7 +22,7 @@ export default class ArchivedComments extends React.Component<IArchivedCommentsS
           </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <div className={styles.archivedComments} dangerouslySetInnerHTML={ { __html: this.props.html }} />
+            <div id="archivedComments" className={styles.archivedComments} dangerouslySetInnerHTML={ { __html: this.props.html }} />
           </AccordionItemPanel>
         </AccordionItem>
       </Accordion>
