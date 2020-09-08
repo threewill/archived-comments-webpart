@@ -1,23 +1,23 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "3e736e68-1652-4897-aa67-a0fcbfb9201c",
-  "alias": "ArchivedComments",
-  "componentType": "WebPart",
-  "version": "*",
-  "manifestVersion": 2,
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+    "id": "3e736e68-1652-4897-aa67-a0fcbfb9201c",
+    "alias": "ArchivedComments",
+    "componentType": "WebPart",
+    "version": "*",
+    "manifestVersion": 2,
 
-  "requiresCustomScript": false,
-  "hiddenFromToolbox": true,
-  "supportedHosts": ["SharePointWebPart"],
+    "requiresCustomScript": false,
+    "hiddenFromToolbox": true,
+    "supportedHosts": ["SharePointWebPart"],
 
-  "preconfiguredEntries": [{
-    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
-    "group": { "default": "Other" },
-    "title": { "default": "Migrated Comments" },
-    "description": { "default": "Displays readonly comments migrated from Archived." },
-    "officeFabricIconFontName": "Page",
-    "properties": {
-      "html": "<div id=\"archivedcommentssection\" style=\"padding:10px;background-color:#F1F1F1;\"> <h3 id=\"comments\"><b>Migrated Comments</b></h3><div id=\"archivedcomments\"></div>"
-    }
-  }]
+    "preconfiguredEntries": [{
+        "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+        "group": { "default": "Other" },
+        "title": { "default": "Migrated Comments" },
+        "description": { "default": "Displays readonly comments migrated from Archived." },
+        "officeFabricIconFontName": "Page",
+        "properties": {
+            "html": "<div id=\"archivedcommentssection\" style=\"padding:10px;\"> <h3 id=\"comments\"><b>Migrated Comments</b></h3><div id=\"archivedcomments\"></div>"
+        }
+    }]
 }
