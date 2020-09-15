@@ -1,10 +1,10 @@
 div#archivedComments {
     max-height: 250px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 div#archivedcomments>div {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 0px 15px;
     border-radius: 5px;
     color: #767676;
@@ -32,7 +32,7 @@ div#archivedcomments>div {
 }
 
 .accordion {
-    border-radius: 2px;
+    /* border-radius: 2px; */
 }
 
 .accordion__item+.accordion__item {
@@ -47,10 +47,11 @@ div#archivedcomments>div {
     border: none;
     font-weight: bold;
     font-size: 20px;
+    outline: none;
 }
 
 .accordion__button:hover {
-    background-color: #ddd;
+    /* background-color: #ddd; */
 }
 
 .accordion__button:before {
@@ -63,13 +64,13 @@ div#archivedcomments>div {
     margin-right: 12px;
     border-bottom: 2px solid currentColor;
     border-right: 2px solid currentColor;
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
     top: 35px;
 }
 
 .accordion__button[aria-expanded='true']::before,
 .accordion__button[aria-selected='true']::before {
-    transform: rotate(45deg);
+    transform: rotate(-135deg);
 }
 
 [hidden] {
@@ -79,6 +80,7 @@ div#archivedcomments>div {
 .accordion__panel {
     animation: fadein 0.35s ease-in;
     padding-top: 4px;
+    padding-left: 18px;
 }
 
 
