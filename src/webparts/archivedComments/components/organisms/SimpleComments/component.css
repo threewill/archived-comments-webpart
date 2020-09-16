@@ -43,6 +43,7 @@ div#archivedcomments>div {
     color: #444;
     cursor: pointer;
     padding: 18px;
+    padding-left: 0px;
     text-align: left;
     border: none;
     font-weight: bold;
@@ -80,7 +81,6 @@ div#archivedcomments>div {
 .accordion__panel {
     animation: fadein 0.35s ease-in;
     padding-top: 4px;
-    padding-left: 18px;
 }
 
 

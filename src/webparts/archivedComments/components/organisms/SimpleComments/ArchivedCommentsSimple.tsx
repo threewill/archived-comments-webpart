@@ -14,7 +14,7 @@ export default class ArchivedComments extends React.Component<IArchivedCommentsS
   public render(): React.ReactElement<IArchivedCommentsSimpleProps> {
     return (
       <div>
-        <hr style={{ color: "#EDEDED" }} />      
+        <hr style={{ color: "#E9E9E9", height:1, border:"none", backgroundColor:"#E9E9E9"}} />      
       <Accordion allowZeroExpanded>
         <AccordionItem>
           <AccordionItemHeading>
@@ -27,7 +27,7 @@ export default class ArchivedComments extends React.Component<IArchivedCommentsS
           </AccordionItemPanel>
         </AccordionItem>
       </Accordion>
-      <hr style={{ color: "#EDEDED" }} />
+      <hr style={{ color: "#E9E9E9", height:1, border:"none", backgroundColor:"#E9E9E9"}} />      
       </div>      
     );
   }
