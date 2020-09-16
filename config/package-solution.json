@@ -1,21 +1,21 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
-  "solution": {
-    "name": "archived-comments-client-side-solution",
-    "id": "88ccecfe-44ef-4444-8cab-18d09c4dc612",
-    "version": "1.0.6.0",
-    "includeClientSideAssets": true,
-    "isDomainIsolated": false,
-    "skipFeatureDeployment": true,
-    "developer": {
-      "name": "",
-      "websiteUrl": "",
-      "privacyUrl": "",
-      "termsOfUseUrl": "",
-      "mpnId": ""
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "archived-comments-client-side-solution",
+        "id": "88ccecfe-44ef-4444-8cab-18d09c4dc612",
+        "version": "1.0.7.0",
+        "includeClientSideAssets": true,
+        "isDomainIsolated": false,
+        "skipFeatureDeployment": true,
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": ""
+        }
+    },
+    "paths": {
+        "zippedPackage": "solution/archived-comments.sppkg"
     }
-  },
-  "paths": {
-    "zippedPackage": "solution/archived-comments.sppkg"
-  }
 }
