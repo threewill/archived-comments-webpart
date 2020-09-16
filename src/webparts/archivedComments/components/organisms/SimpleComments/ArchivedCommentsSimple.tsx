@@ -9,8 +9,6 @@ import {
   AccordionItemPanel
 } from 'react-accessible-accordion';
 import './component.css';
-import 'images/caret-down.svg';
-import 'images/caret-up.svg';
 
 export default class ArchivedComments extends React.Component<IArchivedCommentsSimpleProps, {}> {
   public render(): React.ReactElement<IArchivedCommentsSimpleProps> {
