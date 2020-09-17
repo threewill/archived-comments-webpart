@@ -8,12 +8,13 @@ import {
   AccordionItemButton,
   AccordionItemPanel
 } from 'react-accessible-accordion';
-import 'react-accessible-accordion/dist/fancy-example.css';
 import './component.css';
 
 export default class ArchivedComments extends React.Component<IArchivedCommentsSimpleProps, {}> {
   public render(): React.ReactElement<IArchivedCommentsSimpleProps> {
     return (
+      <div>
+        <hr style={{ color: "#E9E9E9", height:1, border:"none", backgroundColor:"#E9E9E9"}} />      
       <Accordion allowZeroExpanded>
         <AccordionItem>
           <AccordionItemHeading>
@@ -26,6 +27,8 @@ export default class ArchivedComments extends React.Component<IArchivedCommentsS
           </AccordionItemPanel>
         </AccordionItem>
       </Accordion>
+      <hr style={{ color: "#E9E9E9", height:1, border:"none", backgroundColor:"#E9E9E9"}} />      
+      </div>      
     );
   }
 }
