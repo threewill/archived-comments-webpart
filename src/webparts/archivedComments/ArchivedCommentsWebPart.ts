@@ -5,7 +5,7 @@ import {
   IPropertyPaneConfiguration,
   PropertyPaneTextField
 } from '@microsoft/sp-property-pane';
-import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
+import { BaseClientSideWebPart, IWebPartPropertiesMetadata } from '@microsoft/sp-webpart-base';
 import * as strings from 'ArchivedCommentsWebPartStrings';
 import { IArchivedCommentsSimpleProps } from './components/organisms/SimpleComments/IArchivedCommentsSimpleProps';
 import ArchivedCommentsSimple from './components/organisms/SimpleComments/ArchivedCommentsSimple';
@@ -35,6 +35,12 @@ export default class ArchivedCommentsWebPart extends BaseClientSideWebPart<IArch
 
   protected get dataVersion(): Version {
     return Version.parse('1.0');
+  }
+
+  protected get propertiesMetadata(): IWebPartPropertiesMetadata {
+    return {
+      'body': { isSearchablePlainText: true }
+    };
   }
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
