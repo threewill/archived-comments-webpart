@@ -27,7 +27,7 @@ jobs:
 
     # Setup node.js
     - name: Setup Node.js environment
-      uses: actions/setup-node@v1.4.3
+      uses: actions/setup-node@v2
       with: 
         node-version: 10.x
     
